@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="myTopnav" ref="myTopnav" class="container topnav">
     <div class="logo">
       <img src="../assets/images/logo.svg" />
     </div>
@@ -66,14 +66,13 @@ export default {
 
 <style scoped>
 .container {
-  background: pink;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #FFFFFF;
+  background: #ffff;
+  background: pink;
   padding: 15px 0;
-box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
-
+  box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
 }
 .logo {
   margin-left: 5%;
@@ -133,16 +132,6 @@ a.nuxt-link-exact-active {
   color: #000;
   opacity: 0.2;
 }
-/* .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-} */
-
-/* .topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-} */
-
 .topnav .icon {
   display: none;
 }

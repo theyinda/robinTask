@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <navbar /> -->
+    <navbar />
     <div class="over-all">
       <div class="hero-container">
         <h3>Simple & Transparent Pricing. No surprises.</h3>
@@ -156,11 +156,8 @@ span img {
   width: 80%;
   margin: 40px auto;
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: auto auto auto auto;
-  /* display: flex;
-  justify-content: space-between; */
-  background: red;
 }
 .experts-container {
   width: 100%;
@@ -273,6 +270,26 @@ span img {
 
   .chat-right {
     display: none;
+  }
+  .card-container {
+    width: 90%;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .questions-container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+  .questions-container {
+    width: 95%;
+  }
+  .questions-container p {
+    padding: 20px;
   }
 }
 </style>

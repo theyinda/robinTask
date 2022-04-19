@@ -52,7 +52,6 @@ export default {
 <style scoped>
 .container {
   background: #f5f7fc;
-  width: 310px;
   border: 1px solid #4568d1;
   box-sizing: border-box;
   border-radius: 25px;
