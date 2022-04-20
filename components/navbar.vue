@@ -93,7 +93,7 @@ a.nuxt-link-exact-active {
 
 .topnav .icon {
   display: none;
-  background: black;
+  background: #0c1f55;
 }
 
 .details {
