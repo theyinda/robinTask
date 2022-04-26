@@ -59,12 +59,12 @@ export default {
 .topnav {
   overflow: hidden;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background: #ffff;
   padding: 15px 0;
   box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
-  /* background: pink; */
+  margin: 0px auto;
 }
 
 .topnav a {

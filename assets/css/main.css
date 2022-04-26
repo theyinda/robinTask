@@ -10,10 +10,10 @@
   border: none;
 }
 body{
+  width: 100%;
   font-style: normal;
   color: #000;
-  background-color: #0C1F55;
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 a {
   text-decoration: none;

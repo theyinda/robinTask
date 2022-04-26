@@ -55,6 +55,7 @@ export default {
   border: 1px solid #4568d1;
   box-sizing: border-box;
   border-radius: 25px;
+   width: 310px;
 }
 .card {
   padding: 30px;

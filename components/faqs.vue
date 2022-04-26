@@ -49,9 +49,11 @@ export default {
 
 <style scoped>
 .container {
-  background: #ffffff;
+  background: #fff;
+  background: green;
+  margin: 0px auto;
   padding: 10px 15px;
-  /* width: 1000px; */
+   width: 879px;
   margin-top: 30px;
 }
 .clicked-div {
@@ -61,8 +63,8 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 1238px; */
   cursor: pointer;
+  width: 100%;
 }
 .text p {
   font-weight: 700;
@@ -70,7 +72,7 @@ export default {
   line-height: 23px;
 }
 .answer {
-  margin-top: 5vh;
+  margin-top: 47px;
 }
 .answer p {
   font-weight: 400;

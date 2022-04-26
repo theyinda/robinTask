@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="all">
     <navbar />
     <div class="over-all">
       <div class="hero-container">
@@ -38,9 +38,11 @@
 
         <h4>Got additional questions?</h4>
         <p>We would love to have a chat with you.</p>
-        <button>
-          Contact Support <span><img src="../assets/images/blue.svg" /></span>
-        </button>
+        <div class="kemi">
+          <button>
+            Contact Support <span><img src="../assets/images/blue.svg" /></span>
+          </button>
+        </div>
       </div>
 
       <div class="chat-container">
@@ -60,7 +62,7 @@
         </div>
       </div>
     </div>
-    <foot />
+    <!-- <foot /> -->
   </div>
 </template>
 
@@ -111,9 +113,13 @@ export default {
 </script>
 
 <style scoped>
+.all{
+  background: #fff;
+   max-width: 1440px;
+    margin: 0 auto ;
+}
 .over-all {
   width: 100%;
-  /* background: pink; */
   margin: 20px auto 0;
 }
 .hero-container {
@@ -126,8 +132,11 @@ export default {
 .hero-container h3 {
   font-weight: 700;
   font-size: 50px;
+  margin: 0px auto;
   line-height: 54px;
   padding-top: 20px;
+  max-width: 765px;
+  text-align: center;
 }
 .hero-container p {
   font-weight: 400;
@@ -153,11 +162,14 @@ span img {
   margin-left: 20px;
 }
 .card-container {
-  width: 80%;
+  background: blue;
+  width: 85%;
   margin: 40px auto;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: flex;
+  justify-content: space-evenly; */
 }
 .experts-container {
   width: 100%;
@@ -179,16 +191,16 @@ span img {
 .faqs {
   margin-bottom: 60px;
   margin: 30px auto;
-  width: 50%;
+  /* width: 50%; */
 }
 .questions-container {
-  max-width: 100%;
+  /* max-width: 100%; */
   background: #f5f7fc;
   border-radius: 25px;
-  margin: 30px auto;
-  width: 70%;
+
+  width: 1238px;
+  background: red;
   margin: 40px auto;
-  text-align: center;
   border-radius: 25px;
   padding: 70px 0 0 0;
 }
@@ -199,16 +211,26 @@ span img {
   text-align: center;
 }
 .questions-container h4 {
+  width: 100%;
+  text-align: center;
   padding-top: 20px;
 }
 .questions-container p {
   font-weight: 400;
   font-size: 19px;
   line-height: 30px;
-  /* width: 362px; */
+  width: 362px;
+  margin: 0px auto;
   text-align: center;
   opacity: 0.8;
   padding-top: 10px;
+}
+.kemi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ margin: 0 auto;
 }
 .questions-container button {
   background: #fff;
@@ -219,10 +241,9 @@ span img {
   width: 207px;
   height: 50px;
   color: #4568d1;
-  margin: 20px 0 50px 0;
+  margin: 20px auto 50px auto;
 }
 .chat-container {
-  /* background: orange; */
   display: flex;
   margin: 30px auto 0;
   width: 100%;
@@ -237,7 +258,7 @@ span img {
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
-  /* width: 389px; */
+  width: 389px;
   padding: 22px 0 37px 0;
 }
 .chat-left p {
@@ -245,7 +266,7 @@ span img {
   font-size: 19px;
   line-height: 30px;
   opacity: 0.8;
-  /* width: 362px; */
+  width: 362px;
 }
 .chat-left button {
   border: 1px solid #000000;
@@ -291,5 +312,22 @@ span img {
   .questions-container p {
     padding: 20px;
   }
+  .chat-container {
+  display: flex;
+  margin: 30px auto 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.chat-left {
+  margin-left: 10%;
+  padding: 30px 30px;
+  margin-top: 100px;
+}
+.chat-left h3 {
+  width: 280px;
+}
+.chat-left p {
+  width: 250px;
+}
 }
 </style>

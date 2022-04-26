@@ -100,6 +100,8 @@ export default {
 <style scoped>
 .container {
   background: #0c1f55;
+  max-width: 1440px;
+  margin: 0px auto;
 }
 .foot {
   width: 90%;
@@ -122,7 +124,7 @@ export default {
   font-size: 20px;
   line-height: 35px;
   color: #ffffff;
-  /* width: 526px; */
+  width: 526px;
   opacity: 0.7;
 }
 .buttons{
@@ -154,27 +156,26 @@ span img {
   /* opacity: 0.1; */
   padding-top: 40px;
   border-top: 1px solid #ffffff;
-
+ border-top: 1px solid rgba(255, 255, 255,.1);
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
 }
 .lastFooter-bottom{
   width: 100%;
-  /* opacity: 0.1; */
   padding-top: 20px;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255, 255, 255,.1);
   display: flex;
   justify-content: space-between;
 }
 
 .bottom-right {
-  width: 20%;
+  width: 25%;
 }
 .reference {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .resources .text,
 .company .text {
@@ -193,7 +194,7 @@ span img {
   padding-top: 20px;
 }
 .lastBottom-right {
-  width: 30%;
+  width: 40%;
 }
 .copyright ul {
   display: flex;
@@ -208,6 +209,9 @@ span img {
  padding: 20px 0;
 }
 @media screen and (max-width: 1200px) {
+  .container {
+  width: 1440px;
+}
 .footer-top{
   display: block;
 }
