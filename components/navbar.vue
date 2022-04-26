@@ -59,10 +59,10 @@ export default {
 .topnav {
   overflow: hidden;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: #ffff;
-  padding: 15px 0;
+  padding: 15px 70px;
   box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
   margin: 0px auto;
 }
@@ -120,7 +120,7 @@ a.nuxt-link-exact-active {
   border-radius: 30.5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .topnav a:not(:first-child),
   .details a,
   .doing a {

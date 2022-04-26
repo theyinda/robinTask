@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-    <!-- <foot /> -->
+    <foot />
   </div>
 </template>
 
@@ -113,13 +113,14 @@ export default {
 </script>
 
 <style scoped>
-.all{
+.all {
   background: #fff;
-   max-width: 1440px;
-    margin: 0 auto ;
+  /* width: 1440px; */
+  width: 80%;
+  margin: 0 auto;
 }
 .over-all {
-  width: 100%;
+  /* width: 100%; */
   margin: 20px auto 0;
 }
 .hero-container {
@@ -162,14 +163,12 @@ span img {
   margin-left: 20px;
 }
 .card-container {
-  background: blue;
-  width: 85%;
-  margin: 40px auto;
+  width: 100%;
+  /* padding: 0 50px; */
+  margin: 40px 0;
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* display: flex;
-  justify-content: space-evenly; */
 }
 .experts-container {
   width: 100%;
@@ -191,15 +190,13 @@ span img {
 .faqs {
   margin-bottom: 60px;
   margin: 30px auto;
-  /* width: 50%; */
+  width: 80%;
 }
 .questions-container {
-  /* max-width: 100%; */
   background: #f5f7fc;
   border-radius: 25px;
-
-  width: 1238px;
-  background: red;
+  /* width: 1238px; */
+  width: 90%;
   margin: 40px auto;
   border-radius: 25px;
   padding: 70px 0 0 0;
@@ -225,12 +222,12 @@ span img {
   opacity: 0.8;
   padding-top: 10px;
 }
-.kemi{
+.kemi {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
- margin: 0 auto;
+  margin: 0 auto;
 }
 .questions-container button {
   background: #fff;
@@ -293,7 +290,7 @@ span img {
     display: none;
   }
   .card-container {
-    width: 90%;
+    /* width: 90%; */
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr;
   }
@@ -313,21 +310,21 @@ span img {
     padding: 20px;
   }
   .chat-container {
-  display: flex;
-  margin: 30px auto 0;
-  width: 100%;
-  justify-content: space-between;
-}
-.chat-left {
-  margin-left: 10%;
-  padding: 30px 30px;
-  margin-top: 100px;
-}
-.chat-left h3 {
-  width: 280px;
-}
-.chat-left p {
-  width: 250px;
-}
+    display: flex;
+    margin: 30px auto 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .chat-left {
+    margin-left: 10%;
+    padding: 30px 30px;
+    margin-top: 100px;
+  }
+  .chat-left h3 {
+    width: 280px;
+  }
+  .chat-left p {
+    width: 250px;
+  }
 }
 </style>

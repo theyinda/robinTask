@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card">
       <h4>{{ name }}</h4>
-      <p class="amount">{{ amount }}<span class="month">/mo</span></p>
+      <p class="amount">{{ amount }}<span class="month"></span></p>
       <div class="cards">
         <div class="cardInfo">
           <img src="../assets/images/tick.svg" /><span class="core"
@@ -54,8 +54,9 @@ export default {
   background: #f5f7fc;
   border: 1px solid #4568d1;
   box-sizing: border-box;
+  margin: 40px auto;
   border-radius: 25px;
-   width: 310px;
+  /*width: 310px; */
 }
 .card {
   padding: 30px;
@@ -71,6 +72,7 @@ export default {
   font-size: 35px;
   line-height: 45px;
   padding: 10px 0 20px 0;
+  width: 202px;
 }
 .month {
   font-size: 35px;

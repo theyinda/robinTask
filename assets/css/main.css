@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Overpass:wght@400;500;600&family=Poppins:wght@300;400;600&display=swap');
+@font-face {
+  font-family: 'Google Sans';
+  src: url('../font/ProductSans-Black.ttf'); /* IE9*/
+  src: url('../font/ProductSans-Bold.ttf') format('embedded-opentype');
+  src: url('../font/ProductSans-Regular.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
 
 * {
- font-family: 'Overpass', sans-serif;
+ font-family: 'Google Sans', sans-serif;
   font-size: 16px;
   padding: 0;
   margin: 0;

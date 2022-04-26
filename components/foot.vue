@@ -24,7 +24,7 @@
       </div>
 
       <div class="footer-bottom">
-        <div class="left"><img src="../assets/images/logo.svg" /></div>
+        <div class="left"><img src="../assets/images/robin.svg" /></div>
 
         <div class="bottom-right">
           <div class="reference">
@@ -100,8 +100,10 @@ export default {
 <style scoped>
 .container {
   background: #0c1f55;
-  max-width: 1440px;
+  width: 100%;
+  /* width: 1440px; */
   margin: 0px auto;
+  margin-right: 0px !important;
 }
 .foot {
   width: 90%;
@@ -111,7 +113,6 @@ export default {
   padding-top: 70px;
   display: flex;
   justify-content: space-between;
-
 }
 .left h3 {
   font-weight: 700;
@@ -127,7 +128,7 @@ export default {
   width: 526px;
   opacity: 0.7;
 }
-.buttons{
+.buttons {
   display: flex;
 }
 .buttons button {
@@ -152,19 +153,19 @@ span img {
   margin-left: 20px;
 }
 .footer-bottom {
-  width: 100%;
+  /* width: 100%; */
   /* opacity: 0.1; */
   padding-top: 40px;
   border-top: 1px solid #ffffff;
- border-top: 1px solid rgba(255, 255, 255,.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
 }
-.lastFooter-bottom{
+.lastFooter-bottom {
   width: 100%;
   padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255,.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: space-between;
 }
@@ -174,7 +175,6 @@ span img {
 }
 .reference {
   display: flex;
-  width: 100%;
   justify-content: space-between;
 }
 .resources .text,
@@ -194,11 +194,12 @@ span img {
   padding-top: 20px;
 }
 .lastBottom-right {
-  width: 40%;
+  width: 60%;
 }
 .copyright ul {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .robin-links {
   font-weight: 400;
@@ -206,69 +207,66 @@ span img {
   line-height: 17px;
   color: #fff;
   opacity: 0.5;
- padding: 20px 0;
+  padding: 20px 0;
 }
 @media screen and (max-width: 1200px) {
-  .container {
-  width: 1440px;
-}
-.footer-top{
-  display: block;
-}
-.buttons{
-  margin-top: 40px;
-}
-.footer-bottom{
-  display: block;
-}
-.bottom-right {
-  width: 100%;
-}
-.reference{
-  width: 100%;
-  margin-top: 30px;
-  justify-content: space-between;
-  
-}
-.lastBottom-right {
-  width: 100%;
-}
-.lastFooter-bottom{
-  width: 100%;
-  display: block;
-  justify-content: center;
-  /* align-items: center; */
-  margin: 0 auto;
-}
-.copyright ul {
-  width: 100%;
-}
-.robin-links {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 17px;
-  color: #fff;
-  opacity: 0.5;
- padding: 20px 0;
-}
+  .footer-top {
+    display: block;
+  }
+  .buttons {
+    margin-top: 40px;
+  }
+  .footer-bottom {
+    display: block;
+  }
+  .bottom-right {
+    width: 100%;
+  }
+  .reference {
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .lastBottom-right {
+    width: 100%;
+  }
+  .lastFooter-bottom {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+  }
+  .copyright ul {
+    width: 100%;
+  }
+  .robin-links {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #fff;
+    opacity: 0.5;
+    padding: 20px 0;
+  }
 }
 @media screen and (max-width: 600px) {
-.buttons{
-  display: block;
-  margin-top: 40px;
-}
-.buttons button{
-  margin-bottom: 30px;
-}
-.left p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 35px;
-  color: #ffffff;
-  opacity: 0.7;
-}
-.copyright ul {
-  display: block;
-}
+  .buttons {
+    display: block;
+    margin-top: 40px;
+  }
+  .buttons button {
+    margin-bottom: 30px;
+  }
+  .left p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+    opacity: 0.7;
+    width: 300px;
+  }
+  .copyright ul {
+    display: block;
+  }
 }
 </style>

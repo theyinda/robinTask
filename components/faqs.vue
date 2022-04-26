@@ -50,10 +50,8 @@ export default {
 <style scoped>
 .container {
   background: #fff;
-  background: green;
   margin: 0px auto;
   padding: 10px 15px;
-   width: 879px;
   margin-top: 30px;
 }
 .clicked-div {
