@@ -66,7 +66,7 @@
         </div>
       </div>
       <div class="lastFooter-bottom">
-        <div class="left robin-links"><p>© 2021 Robin Inc.</p></div>
+        <div class="left "><p class="copyrightyear">© 2021 Robin Inc.</p></div>
 
         <div class="lastBottom-right">
           <div class="copyright">
@@ -99,11 +99,12 @@ export default {
 
 <style scoped>
 .container {
-  background: #0c1f55;
+  /* background: #0c1f55; */
+  background: red;
   width: 100%;
-  /* width: 1440px; */
+  max-width: 1440px;
   margin: 0px auto;
-  margin-right: 0px !important;
+  /* margin-right: 0px !important; */
 }
 .foot {
   width: 90%;
@@ -127,6 +128,7 @@ export default {
   color: #ffffff;
   width: 526px;
   opacity: 0.7;
+  padding-top: 23px;
 }
 .buttons {
   display: flex;
@@ -168,6 +170,7 @@ span img {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .bottom-right {
@@ -208,6 +211,13 @@ span img {
   color: #fff;
   opacity: 0.5;
   padding: 20px 0;
+}
+.copyrightyear {
+  font-weight: 400;
+  font-size: 14px !important;
+  line-height: 18px;
+  color: #fff;
+  opacity: 0.3;
 }
 @media screen and (max-width: 1200px) {
   .footer-top {

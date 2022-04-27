@@ -1,6 +1,9 @@
 <template>
   <div class="all">
-    <navbar />
+    <div class="navigation">
+      <navbar />
+    </div>
+
     <div class="over-all">
       <div class="hero-container">
         <h3>Simple & Transparent Pricing. No surprises.</h3>
@@ -62,7 +65,9 @@
         </div>
       </div>
     </div>
-    <foot />
+    <div class="footerb">
+      <foot />
+    </div>
   </div>
 </template>
 
@@ -116,11 +121,11 @@ export default {
 .all {
   background: #fff;
   /* width: 1440px; */
-  width: 80%;
+  width: 100%;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 .over-all {
-  /* width: 100%; */
   margin: 20px auto 0;
 }
 .hero-container {
@@ -163,9 +168,9 @@ span img {
   margin-left: 20px;
 }
 .card-container {
-  width: 100%;
-  /* padding: 0 50px; */
-  margin: 40px 0;
+  width: 90%;
+  max-width: 1440px;
+  margin: 40px auto;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -196,6 +201,8 @@ span img {
   background: #f5f7fc;
   border-radius: 25px;
   /* width: 1238px; */
+  width: 90%;
+  max-width: 1440px;
   width: 90%;
   margin: 40px auto;
   border-radius: 25px;
@@ -243,6 +250,7 @@ span img {
 .chat-container {
   display: flex;
   margin: 30px auto 0;
+  max-width: 1440px;
   width: 100%;
   justify-content: space-between;
 }
@@ -280,6 +288,16 @@ span img {
 .chat-right {
   /* background: blue; */
   position: relative;
+}
+.navigation{
+ background: #ffff;
+ width: 100%;
+  padding: 15px 5%;
+  box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
+}
+.footerb {
+  background: #0c1f55;
+  width: 100%;
 }
 @media only screen and (max-width: 1200px) {
   .chat-container {

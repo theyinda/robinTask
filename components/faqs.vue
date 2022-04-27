@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div class="hy" :class="showAnswerDetails ? 'clicked-div' : ''">
-      <br />
       <div class="clickable-div" @click="showAnswer">
         <div class="text">
           <p class="">{{question}}</p>
@@ -51,17 +50,15 @@ export default {
 .container {
   background: #fff;
   margin: 0px auto;
-  padding: 10px 15px;
+  padding: 20px 15px;
   margin-top: 30px;
-}
-.clicked-div {
-  /* padding-bottom: 10vh; */
 }
 .clickable-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  padding-top: 0 !important;
   width: 100%;
 }
 .text p {

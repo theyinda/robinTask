@@ -61,10 +61,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffff;
-  padding: 15px 30px;
-  box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
   margin: 0px auto;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .topnav a {

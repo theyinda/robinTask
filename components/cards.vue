@@ -56,7 +56,6 @@ export default {
   box-sizing: border-box;
   margin: 40px auto;
   border-radius: 25px;
-  /*width: 310px; */
 }
 .card {
   padding: 30px;
