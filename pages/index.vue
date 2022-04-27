@@ -300,14 +300,16 @@ span img {
 }
 @media only screen and (max-width: 600px) {
   .card-container {
-    width: 95%;
+    width: 90%;
     grid-template-columns: 1fr;
+    margin: 0 auto;
   }
   .questions-container {
     width: 95%;
   }
   .questions-container p {
     padding: 20px;
+    width: 200px;
   }
   .chat-container {
     display: flex;
@@ -321,10 +323,10 @@ span img {
     margin-top: 100px;
   }
   .chat-left h3 {
-    width: 280px;
+    width: 200px;
   }
   .chat-left p {
-    width: 250px;
+    width: 200px;
   }
 }
 </style>

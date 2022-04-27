@@ -62,7 +62,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   background: #ffff;
-  padding: 15px 70px;
+  padding: 15px 30px;
   box-shadow: 0px 10px 20px rgba(0, 104, 255, 0.09);
   margin: 0px auto;
 }
@@ -132,10 +132,11 @@ a.nuxt-link-exact-active {
   }
   .topnav {
     display: block;
+     padding: 0;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .topnav.responsive {
     position: relative;
   }
@@ -150,4 +151,5 @@ a.nuxt-link-exact-active {
     text-align: left;
   }
 }
+
 </style>
