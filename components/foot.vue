@@ -100,7 +100,6 @@ export default {
 <style scoped>
 .container {
   /* background: #0c1f55; */
-  background: red;
   width: 100%;
   max-width: 1440px;
   margin: 0px auto;
