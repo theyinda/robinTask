@@ -248,14 +248,15 @@ span img {
   margin: 20px auto 50px auto;
 }
 .chat-container {
+   /* background: red; */
   display: flex;
   margin: 30px auto 0;
-  max-width: 1440px;
+  /* max-width: 1900px; */
   width: 100%;
   justify-content: space-between;
 }
 .chat-left {
-  margin-left: 10%;
+  margin-left: 20%;
   padding: 30px 30px;
   margin-top: 100px;
 }

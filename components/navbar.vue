@@ -1,9 +1,12 @@
 <template>
   <div class="">
     <div class="topnav" id="myTopnav" ref="myTopnav">
-      <nuxt-link to="#" class="side-nav_item">
-        <img src="../assets/images/logo.svg" />
-      </nuxt-link>
+      <div class="logo">
+        <nuxt-link to="#" class="side-nav_item">
+          <img src="../assets/images/logo.svg" />
+        </nuxt-link>
+      </div>
+
       <div class="doing">
         <nuxt-link to="/" class="side-nav_item">
           <p class="nav-link">Pricing</p>
@@ -79,6 +82,9 @@ export default {
   color: #000;
   opacity: 0.7;
 }
+.logo{
+  width: 300px;
+}
 
 /* active */
 a.nuxt-link-exact-active {
@@ -96,6 +102,7 @@ a.nuxt-link-exact-active {
 }
 
 .details {
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +138,7 @@ a.nuxt-link-exact-active {
   }
   .topnav {
     display: block;
-     padding: 0;
+    padding: 0;
   }
 }
 
@@ -150,5 +157,4 @@ a.nuxt-link-exact-active {
     text-align: left;
   }
 }
-
 </style>
